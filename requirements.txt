@@ -1,0 +1,2 @@
+flask<4.0
+frozen-flask<2
