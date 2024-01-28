@@ -29,4 +29,9 @@ def create_app(test_config=None):
     def hello():
         return render_template('index.html')
 
+    @app.route('/work')
+    def work():
+        return render_template('work.html')
+
+
     return app
