@@ -2,6 +2,7 @@
 
 #wrapper {
   overflow-x: hidden;
+  padding-bottom: 50px;
 }
 
 #sidebar-wrapper {
@@ -38,4 +39,12 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
     margin-left: -15rem;
   }
+}
+
+#page-content {
+
+}
+
+.content-section {
+  margin-top: 25px;
 }

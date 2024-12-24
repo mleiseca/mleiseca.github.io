@@ -33,5 +33,8 @@ def create_app(test_config=None):
     def work():
         return render_template('work.html')
 
+    @app.route('/fencing-dummy/')
+    def dummy():
+        return render_template('fencing-dummy.html')
 
     return app
